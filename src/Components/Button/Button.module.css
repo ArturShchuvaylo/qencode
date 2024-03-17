@@ -1,0 +1,31 @@
+.loginButton {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  padding: 13px 82px;
+  text-align: center;
+  width: 100%;
+  border-radius: 8px;
+  background: rgb(49, 111, 234);
+  cursor: pointer;
+  text-align: center;
+  min-height: 48px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.01);
+}
+
+.cancel {
+  border: 1.2px solid rgb(211, 216, 220);
+  color: rgb(6, 14, 30);
+  background: none;
+}
+
+.loginButton:disabled {
+  background: #e0e0e0;
+  cursor: not-allowed;
+}

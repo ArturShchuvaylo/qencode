@@ -1,0 +1,44 @@
+.signup-link {
+}
+a {
+  color: rgb(49, 111, 234);
+  cursor: pointer;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgb(190, 197, 204);
+  margin-bottom: 30px;
+}
+
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid rgb(190, 197, 204);
+}
+
+::after {
+  margin: 0 0 0 6px;
+}
+::before {
+  margin: 0 6px 0 0;
+}
+
+.separator-text {
+  flex-shrink: 0;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  margin-bottom: 30px;
+}
+
+.forgotPassword {
+  display: block;
+  text-align: right;
+}

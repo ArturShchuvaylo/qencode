@@ -1,0 +1,51 @@
+.login {
+  flex: 0 1 400px;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(26, 25, 25);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 39px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+/* 
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.formPassword {
+  position: relative;
+}
+
+.formLabel {
+  display: block;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.passwordToggle {
+  position: absolute;
+  top: 17px;
+  right: 16px;
+  cursor: pointer;
+}
+
+.formLine input {
+  width: 100%;
+  line-height: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  border: 1.2px solid rgb(211, 216, 220);
+  border-radius: 8px;
+  padding: 13px 35px 13px 15px;
+}
+
+.formLine input::placeholder {
+  color: rgb(161, 171, 181);
+} */

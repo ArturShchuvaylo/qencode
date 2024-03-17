@@ -1,0 +1,12 @@
+.button {
+  flex: 1 1 190px;
+  display: flex;
+  align-items: center;
+  padding: 13px 0px;
+  background: rgb(255, 255, 255);
+  border: 1.2px solid rgb(211, 216, 220);
+  border-radius: 8px;
+  gap: 10px;
+  justify-content: center;
+  cursor: pointer;
+}
