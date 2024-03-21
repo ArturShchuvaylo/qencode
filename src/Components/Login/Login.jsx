@@ -34,12 +34,13 @@ const Login = () => {
   const mapErrors = (data) => {
     setPasswordDirty(true);
     if (Array.isArray(data.detail)) {
-      return data.detail.map((elem) => {
+      data.detail.map((elem) => {
         if (elem.field_name === "password") {
-          setPasswordError(elem.error);
+          return setPasswordError(elem.error);
         } else if (elem.field_name === "email") {
           setEmailError(elem.error);
         }
+        return null;
       });
     } else {
       setPasswordError(data.detail);
