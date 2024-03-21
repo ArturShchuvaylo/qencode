@@ -4,16 +4,16 @@ import styles from "./EmailInput.module.css";
 const EmailInput = ({
   email,
   emailHandler,
-  blurHandler,
+  blurEmailHandler,
   emailDirty,
   emailError,
 }) => {
   return (
     <div className={styles.formLine}>
       <input
-        onChange={(e) => emailHandler(e.target.value)}
         value={email}
-        onBlur={(e) => blurHandler(e)}
+        onBlur={() => blurEmailHandler()}
+        onChange={(e) => emailHandler(e.target.value)}
         type="email"
         className={`${styles.emailInput} ${
           emailDirty && emailError ? styles.red : ""

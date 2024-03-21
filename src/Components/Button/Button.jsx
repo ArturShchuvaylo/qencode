@@ -1,23 +1,13 @@
 import React from "react";
 import styles from "./Button.module.css";
 
-const Button = ({
-  title = "Log in to Qencode",
-  variant = "default",
-  isValid = true,
-  onClick = null,
-}) => {
+const Button = ({ title = "Log in to Qencode", variant = "default" }) => {
   const buttonClass = `${styles.loginButton} ${
     variant !== "default" ? styles[variant] : ""
   }`;
 
   return (
-    <button
-      onClick={onClick}
-      type="submit"
-      disabled={!isValid}
-      className={buttonClass}
-    >
+    <button type="submit" className={buttonClass}>
       {title}
     </button>
   );
